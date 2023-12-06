@@ -1,7 +1,7 @@
 module.exports.AppConfig = {
-    app_name: 'Your App Name', 
-    app_description: 'Your App Description Here', 
-    app_identifier: 'com.something.app', 
+    app_name: 'MontRideTaxiApp', 
+    app_description: 'Taxi App', 
+    app_identifier: 'com.capstoneproject.app', 
     ios_app_version: '1.0.0', 
     android_app_version: 100, 
     expo_owner: 'dawodahmadi',

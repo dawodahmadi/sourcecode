@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "exicubeapps",
+    "slug": "exicubeapps",
+    "version": "3.5.0",
+    "description": "Exicube App Solutions",
+    "sdkVersion": "49.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "android": {
+      "package": "com.capstoneproject.app"
+    }
+  }
+}

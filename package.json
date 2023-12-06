@@ -14,7 +14,9 @@
     "web": "yarn workspace web-app start",
     "web:deploy": "yarn workspace web-app build && firebase deploy --only hosting",
     "deploy": "yarn workspace web-app build && firebase deploy && exicube initialize",
-    "postinstall": "patch-package && exicube install"
+    "postinstall": "patch-package && exicube install",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
   },
   "workspaces": [
     "mobile-app",
@@ -33,9 +35,17 @@
     "node-fetch": "2.6.7",
     "open": "^8.4.0",
     "patch-package": "6.4.7",
-    "xml2json": "^0.12.0"
+    "xml2json": "^0.12.0",
+    "expo": "~49.0.18",
+    "expo-splash-screen": "~0.20.5",
+    "expo-status-bar": "~1.6.0",
+    "react": "18.2.0",
+    "react-native": "0.72.6"
   },
   "resolutions": {
     "@expo/config-plugins": "~7.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
   }
 }
